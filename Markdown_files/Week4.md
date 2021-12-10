@@ -137,7 +137,8 @@ public class Math{
     An exception is an unwanted or unexpected event, which occurs during the execution of a program i.e at run time, that disrupts the normal flow of the program’s instructions.
 
 * Exception Hierarchy
-![exceptions](./images/exceptions.png)
+
+    <img src="./images/exceptions.png" width="600">
 
 * Exception vs Error
 
