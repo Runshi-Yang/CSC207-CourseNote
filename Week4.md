@@ -115,6 +115,34 @@ public class Math{
 * **Find out where a method or variable is used**: Command + click
 * **Extract a method**: Choose the piece of code you want to extract -> Refactor -> Refactor this... -> Extract Method -> Change function name
 
-The extracted method is private since it is only used in the same class.
+    Notice: The extracted method is private since it is only used in the same class.
+* **Add Javadoc**: Click the (public) variable or method -> Click the yellow light bubble -> add Javadoc
+    ```java
+    /* The compiler ignores everything from /* to */
 
-## 4. Exception
+    // The compiler ignores everything from // to the end of the line.
+    /**
+    * This is a documentation comment and in general its called doc comment.
+    */
+    ```
+
+    Notice: you should have Javadoc for everything that is not private or final, since those are thing other people coding in your group might need to know.
+* **Add Getter/Setter for a variable**: Code -> Generate -> Getter/Setter -> Choose a variable
+
+* **Import Packages**: Click on the variable and press commond + return
+
+## 4. Exceptions
+* What is an Exception?
+    
+    An exception is an unwanted or unexpected event, which occurs during the execution of a program i.e at run time, that disrupts the normal flow of the program’s instructions.
+
+* Exception Hierarchy
+![exceptions](./images/exceptions.png)
+
+* Exception vs Error
+
+    * Error: indicates serious problem that a reasonable application should not try to catch.
+
+    * Exception: indicates conditions that a reasonable application might try to catch.
+
+## 5. Generics
