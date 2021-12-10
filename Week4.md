@@ -1,8 +1,8 @@
 # Week 4
 
-## 1. public variable OR privte variable + setter/getter?
+## 1. Getters, Setters, Public variables
 
-* Case 1: 
+* Case 1: The value of the variable may be changed for some reasons.
 
     Example: Person class has variable "name"
 ```java
@@ -13,30 +13,35 @@ public class Person{
         return this.name;
     }
 
+    // There is a setter method since a person can change his name.
     public void setName(String name) {
         this.name = name;
     }
     ...
 }
 ```
-This is a good example, since a person's name can change.
 
-* Case 2:
+
+* Case 2: There is no reason for the value of the variable to be changed.
 
     Example: Student class has variable "stundentNum"
 ```js
 public class Stundent{
     private String studentNum;
     ...
+    public String getStudentNum {
+        return this.studentNum;
+    }
+
+    // There no setter method since there is no reason for a student to change his studentNum.
     public void setStudentNum(String studentNum) {
         this.studentNum = studentNum;
     }
     ...
 }
 ```
-This is a bad example, since a there is no reason for a student to change his studentNum.
 
-* Case 3:
+* Case 3: You want a global variable.
 
     Math class has variable "pi"
 ```js
@@ -44,7 +49,6 @@ public class Math{
     public static final pi = 3.14159;
 }
 ```
-Normally we try to make our variables private, but in this example, it is ok to make pi public.
 
 
 ## 2. JAVA Keywords
