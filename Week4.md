@@ -110,7 +110,7 @@ public class Math{
 
 
 
-## 3. Some Intellj shortcuts
+## 3. Intellj shortcuts
 
 * **Find out where a method or variable is used**: Command + click
 * **Extract a method**: Choose the piece of code you want to extract -> Refactor -> Refactor this... -> Extract Method -> Change function name
@@ -138,7 +138,7 @@ public class Math{
 
 * Exception Hierarchy
 
-    <img src="./images/exceptions.png" width="600">
+    <img src="images/exceptions.png" width="600">
 
 * Exception vs Error
 
