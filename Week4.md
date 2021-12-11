@@ -132,7 +132,7 @@ public class Math{
 * **Import Packages**: Click on the variable and press commond + return
 
 ## 4. Exceptions
-* What is an Exception?
+* What is an Exception
     
     An exception is an unwanted or unexpected event, which occurs during the execution of a program i.e at run time, that disrupts the normal flow of the program’s instructions.
 
