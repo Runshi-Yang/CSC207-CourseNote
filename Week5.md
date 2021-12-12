@@ -25,15 +25,3 @@
 * By Feature
 * Inside/Outside
 * By Component
-
-## Design Patterns
-
-### 1. Definition: 
-A design pattern is a general, reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. Rather, it is a description or template for how to solve a problem that can be used in many different situations.
-
-### 2. Requirements:
-
-* Goals of object-oriented design:
-    * Loose (Low) Coupling: Coupling refers to the degree to which the different modules/classes depend on each other, it is suggested that all modules should be independent as far as possible. It has to do with the elements among different modules/classes.
-    * High Cohesion: Cohesion refers to the degree to which the elements of a module/class belong together, it is suggested that the related code should be close to each other. It has to do with the elements within the module/class. (Make each class does one thing and does it well.)
-* Solid Principles
